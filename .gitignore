@@ -1,3 +1,6 @@
+#Temp
+.temp/
+
 #Junk
 .DS_Store
 .vscode/
