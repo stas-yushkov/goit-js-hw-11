@@ -5,4 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("modern-normalize/modern-normalize"),require("./sass/main.scss");
 },{"modern-normalize/modern-normalize":"Y5dV","./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/parcel-project-template/src.540184bd.js.map
+//# sourceMappingURL=/parcel-project-template/src.8fd070da.js.map
