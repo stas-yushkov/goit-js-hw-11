@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;;AACA,aADA,QAAA,qCACA,QAAA","file":"src.540184bd.js","sourceRoot":"../src","sourcesContent":["import 'modern-normalize/modern-normalize';\nimport './sass/main.scss';\n"]}
