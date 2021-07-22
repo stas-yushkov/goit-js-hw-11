@@ -1,2 +1,2 @@
-import 'modern-normalize/modern-normalize.css';
+import 'modern-normalize/modern-normalize';
 import './sass/main.scss';
