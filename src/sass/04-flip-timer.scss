@@ -1,16 +1,11 @@
 /**
-timer scss 
+flip timer scss 
    |    |    |    | 
    |    |    |    | 
    |    |    |    | 
   \|/  \|/  \|/  \|/
    `    `    `    ` 
 */
-
-#date-selector {
-  margin-bottom: 16px;
-}
-
 .tick {
   font-size: 1rem;
   white-space: nowrap;
@@ -77,21 +72,11 @@ body {
 .tick-flip {
   border-radius: 0.12em !important;
 }
-
-.timer {
-  display: flex;
-}
-
-.timer .field {
-  margin: 10px;
-  font-size: 20px;
-  line-height: 2;
-}
 /**
    .     .    .    . 
   /|\   /|\  /|\  /|\
    |     |    |    | 
    |     |    |    | 
    |     |    |    | 
-timer scss 
+flip timer scss 
 */

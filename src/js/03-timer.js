@@ -16,6 +16,8 @@ const refs = {
   hours: document.querySelector('span[data-hours]'),
   minutes: document.querySelector('span[data-minutes]'),
   seconds: document.querySelector('span[data-seconds]'),
+
+  tickSS: document.querySelector('.tick[data-seconds]'),
 };
 
 let timerId = 0;
@@ -84,6 +86,11 @@ function updateTimerInterface(diffInMS) {
   refs.hours.textContent = convertMs(diffInMS).hours;
   refs.minutes.textContent = convertMs(diffInMS).minutes;
   refs.seconds.textContent = convertMs(diffInMS).seconds;
+
+  // refs.tickDD.dataset.value = convertMs(diffInMS).days;
+  // refs.tickHH.dataset.value = convertMs(diffInMS).hours;
+  // refs.tickMM.dataset.value = convertMs(diffInMS).minutes;
+  refs.tickSS.dataset.value = convertMs(diffInMS).seconds;
 }
 
 function updateDiff() {
