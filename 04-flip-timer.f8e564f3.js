@@ -17,4 +17,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"../tick/tick.core.module":"Y7pd","./tick.view.flip.module":"z9JL"}],"fNSb":[function(require,module,exports) {
 "use strict";require("modern-normalize/modern-normalize"),require("../sass/main.scss"),require("../sass/04-flip-timer.scss"),require("@pqina/flip/dist/flip.min.js"),require("@pqina/flip/dist/flip.min.css");var e=i(require("@pqina/flip"));function i(e){return e&&e.__esModule?e:{default:e}}function n(i){e.default.helper.interval(function(){i.value<100?i.value+=5:i.value=0})}function n(i){var n=e.default.count.down("2021-01-01T00:00:00+01:00");n.onupdate=function(e){i.value=e},n.onended=function(){}}console.log(e.default);
 },{"modern-normalize/modern-normalize":"Ob66","../sass/main.scss":"Ob66","../sass/04-flip-timer.scss":"Ob66","@pqina/flip/dist/flip.min.js":"ZRkP","@pqina/flip/dist/flip.min.css":"Ob66","@pqina/flip":"R2rZ"}]},{},["fNSb"], null)
-//# sourceMappingURL=/parcel-project-template/04-flip-timer.f8e564f3.js.map
+//# sourceMappingURL=/goit-js-hw-11/04-flip-timer.f8e564f3.js.map
